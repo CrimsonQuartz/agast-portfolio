@@ -1,0 +1,48 @@
+{{ define "main" }}
+<main class="posts">
+  <article class="post">
+    <div class="post-content">
+      
+      <header>
+        <h1 class="post-title" style="border: none; margin-bottom: 0;">Andrew Gast</h1>
+        <div style="font-family: monospace; margin-bottom: 2rem; opacity: 0.9;">
+          <span style="color: var(--accent); font-weight: bold;">[AAS]</span> Cybersecurity @ STLCC <br>
+          <span style="color: var(--accent); font-weight: bold;">[BS]</span> Cybersecurity (IST Emphasis) Candidate @ UMSL
+        </div>
+      </header>
+
+      <div style="border: 1px solid var(--accent); padding: 15px; margin-bottom: 2rem; font-family: monospace; background: rgba(0,0,0,0.2);">
+        <p style="margin: 0;">> LOCATION: St. Louis, MO</p>
+	<p style="margin: 0;">> CURRENT ROLE: STEM IS/IT Tutor @ STLCC</p>
+        <p style="margin: 0;">> INTERESTS: Enterprise Networking | System Hardening | Security Operations</p>
+        <p style="margin: 0;">> LINKS: <a href="mailto:contact@agast.net">Email</a> | <a href="https://github.com/CrimsonQuartz">GitHub</a> | <a href="https://linkedin.com/in/andrewgast6">LinkedIn</a></p>
+      </div>
+
+      <p>
+        Technical portfolio and research repository focusing on enterprise-grade network security and information systems.
+      </p>
+
+    </div>
+  </article>
+
+  <hr style="opacity: 0.2; margin: 3rem 0;" />
+
+  <div class="posts">
+    <h2 style="font-size: 1rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 1.5rem; opacity: 0.7;">Recent Activity</h2>
+    {{ range (where .Site.RegularPages "Type" "posts") }}
+    <article class="post on-list">
+      <h2 class="post-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
+        {{ if .Params.tags }}
+          :: {{ range .Params.tags }}#{{ . }} {{ end }}
+        {{ end }}
+      </div>
+    </article>
+    {{ end }}
+  </div>
+
+</main>
+{{ end }}
