@@ -6,7 +6,6 @@ pagination.pagerSize = 5
 
 [params]
   # Custom Assets
-  customCSS = ["css/terminal.css"]
   favicon = "favicon.png"
   images = ["og-image.png"] # Fixed: Theme expects a list []
 
@@ -18,7 +17,7 @@ pagination.pagerSize = 5
   autoCover = true
   showLastUpdated = true
   readingTime = true
-
+  themeColor = ""
 [languages]
   [languages.en]
     languageName = "English"
@@ -31,7 +30,7 @@ pagination.pagerSize = 5
       readMore = "Read more"
       readOtherPosts = "Read other posts"
       missingContentMessage = "404 - Terminal Session Lost"
-
+      customCSS = ["css/terminal.css"]
       [languages.en.params.logo]
         logoText = "agast.net:~$"
         logoHomeLink = "/"
