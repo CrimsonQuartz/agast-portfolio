@@ -7,3 +7,5 @@ theme = "terminal"
 [params]
 # Load Custom Colour File
 	customCSS = ["css/terminal.css"]
+	favicon = "favicon.png"
+	images = ["og-image.png"
