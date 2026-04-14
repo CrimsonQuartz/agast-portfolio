@@ -7,7 +7,7 @@ draft = false
 ## Education
 **AAS in Cybersecurity** - Saint Louis Community College (2024 - 2026)
 
-* **Cybersecurity Technology & Networking Club** - Former Presiden
+* **Cybersecurity Technology & Networking Club** - Former President
 * **Archer Defenders Cybersecurity Team** - Former Team Captain
 * **Phi Theta Kappa Honors Society** - Member
 
