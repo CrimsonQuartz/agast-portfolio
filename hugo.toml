@@ -7,8 +7,8 @@ pagination.pagerSize = 5
 [params]
 # Load Custom Colour File
 	customCSS = ["css/terminal.css"]
-	favicon = "favicon.png"]
-	images = ["og-image.png"]
+	favicon = "favicon.png"
+	images = "og-image.png"
 
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
