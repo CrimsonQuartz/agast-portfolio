@@ -32,7 +32,7 @@ Heres a short little write-up for practice & documentation
 
 ## Setup steps
 
-First I used my extremely basic html knowledge to make a temporary site ([archived here](gojo.agast.net)) to test deploying websites via github into cloudflare.
+First I used my extremely basic html knowledge to make a temporary site to test deploying websites via github into cloudflare.
 
 Then, I began researching different ways to make a custom site thats pretty to look at. After awhile, I decided to go with Hugo, as it seemed to be something "easy-to-learn, 
 hard-to-master" - Perfect for someone like me who is constantly learning.
@@ -43,7 +43,7 @@ Commence serveral hours of making changes, breaking stuff, consulting documentat
 
 The biggest issue I ran into was initially I was making edits to /themes/terminal 
 
-This would make changes to design layouts and colors on my locally ran dev-instance, but once I commmitted & pushed the changes, the prod-instance did not change. 
+This would make changes to design layouts and colors on my locally ran dev-instance, but once I committed & pushed the changes, the prod-instance did not change. 
 I finally figured it out - the sites source was pulling the /themes/terminal from Panr's master repo, overwritting any of my changes in prod. To fix this, I instead did the proper placement of /static.
 
 ## Whats next
