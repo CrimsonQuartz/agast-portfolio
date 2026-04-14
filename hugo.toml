@@ -1,4 +1,9 @@
-baseURL = 'https://terminal.agast.net/'
+\baseURL = 'https://terminal.agast.net/'
 locale = 'en-us'
 title = 'Andrew Gast | CyberSecurity '
 theme = "terminal"
+
+
+[params]
+# Load Custom Colour File
+customCSS = ["css/terminal.css"]
