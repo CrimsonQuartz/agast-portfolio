@@ -18,7 +18,7 @@ draft = false
 
 ## Certifications
 * **CompTIA Security+** - *WIP (Target: July 2026)*
-
+* **ISC2 Certified in Cybersecurity** *WIP (Target: June 2026)*
 ---
 
 ## Experience
